@@ -21,6 +21,21 @@ body {
   margin: 0;
 }
 
+.App footer {
+  text-align: center;
+  opacity: 0.8;
+}
+.App footer a {
+  color: #bd7955;
+}
+
+.App footer i {
+    font-size: 30px;
+}
+.App footer a:not(:last-child) {
+  margin-right: 5px;
+}
+
 @media (max-width: 518px) {
   .App .App-header {
     margin-top: 20px;
