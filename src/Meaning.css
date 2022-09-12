@@ -1,0 +1,16 @@
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-style: italic;
+  color: #bd7955;
+  text-transform: capitalize;
+}
+.Meaning .example {
+  opacity: 0.8;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.Meaning .definition, .example {
+    text-align: start;
+}

@@ -1,0 +1,39 @@
+.Dictionary section {
+  background: white;
+  opacity: 0.85;
+  padding: 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.Dictionary input {
+  padding: 6px 10px;
+  color: #333;
+}
+
+.Dictionary input:not(:last-child) {
+  margin-right: 10px;
+}
+
+.Dictionary .search {
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .submit {
+  border-radius: 50px;
+  background-color: #bd7955;
+  border: 1px solid #bd7955;
+  color: white;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+@media (max-width: 518px) {
+  .Dictionary .search {
+    width: 40%;
+  }
+}
